@@ -16,7 +16,9 @@ public class LoanClosureService {
     public LoanClosureService(LoanPayment loanPayment) {
         this.loanPayment = loanPayment;
     }
+
     public void foreCloseLoan() {
-        loanPayment.foreCloseLoan();;
+        loanPayment.foreCloseLoan();
+
     }
 }

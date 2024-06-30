@@ -1,6 +1,6 @@
 package com.avi.designPatterns.solid.liskov.bad;
 
-public class CreditCardLoan implements LoanPayment{
+public class CreditCardLoan implements LoanPayment {
     @Override
     public void doPayment(int amount) {
 
